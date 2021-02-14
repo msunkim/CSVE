@@ -14,8 +14,7 @@ The implementation is developed by [Myungsun Kim](http://msuny.net) and is relea
   NOTE: the file you are reading is in Markdown format, which is fairly readable
   directly, but can be converted into an HTML file with much nicer formatting.
   To do so, run "make doc" (this requires the python-markdown package) and view
-  the resulting file README.html. Alternatively, view the latest HTML version at
-  https://github.com/scipr-lab/libsnark .
+  the resulting file README.html. 
 -->
 
 --------------------------------------------------------------------------------
@@ -28,7 +27,7 @@ A protocol in which the encryptor is the prover is a verifiable encryption proto
 In particular, this implementation realizes a verifiable encryption introduced by Camenisch and Shoup \[CS03] at Crypto 2003. This work clearly has a better performance than some other works such as \[ASW98], \[Sta96], and \[YY98].
 
 
-This code is a C++ implementation together with NTL 11.4.3 and openssl (LibeSSL 2.8.3) and includes a simple test code. For simplicity I provide a Makefile rather than using cmake.
+This code is a C++ implementation together with NTL 11.4.3 and openssl (LibreSSL 2.8.3) and includes a simple test code. For simplicity I provide a Makefile rather than using cmake.
 
 --------------------------------------------------------------------------------
 Build instructions
